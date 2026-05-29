@@ -1,0 +1,34 @@
+## Projektstruktur
+```text
+.
+├── README.md
+├── STRUCTURE.md
+├── eslint.config.js
+├── index.html
+├── package-lock.json
+├── package.json
+├── public
+│   ├── favicon.svg
+│   └── icons.svg
+├── src
+│   ├── App.css
+│   ├── App.jsx
+│   ├── components
+│   │   ├── App.jsx
+│   │   ├── Footer.jsx
+│   │   ├── Hero.jsx
+│   │   ├── Navbar.jsx
+│   │   └── Ticker.jsx
+│   ├── index.css
+│   ├── main.jsx
+│   └── pages
+│       ├── About.jsx
+│       ├── Contact.jsx
+│       ├── Home.jsx
+│       └── NotFound.jsx
+├── todo.md
+├── update-readme.sh
+└── vite.config.js
+
+5 directories, 24 files
+```

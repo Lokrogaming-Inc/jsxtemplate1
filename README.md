@@ -1,16 +1,127 @@
-# React + Vite
+## Projektstruktur
+```
+.
+├── node_modules
+│   ├── @babel
+│   ├── @emnapi
+│   ├── @eslint
+│   ├── @eslint-community
+│   ├── @humanfs
+│   ├── @humanwhocodes
+│   ├── @jridgewell
+│   ├── @napi-rs
+│   ├── @oxc-project
+│   ├── @rolldown
+│   ├── @tailwindcss
+│   ├── @tybys
+│   ├── @types
+│   ├── @vitejs
+│   ├── acorn
+│   ├── acorn-jsx
+│   ├── ajv
+│   ├── balanced-match
+│   ├── baseline-browser-mapping
+│   ├── brace-expansion
+│   ├── browserslist
+│   ├── caniuse-lite
+│   ├── convert-source-map
+│   ├── cookie
+│   ├── cross-spawn
+│   ├── csstype
+│   ├── debug
+│   ├── deep-is
+│   ├── detect-libc
+│   ├── electron-to-chromium
+│   ├── enhanced-resolve
+│   ├── escalade
+│   ├── escape-string-regexp
+│   ├── eslint
+│   ├── eslint-plugin-react-hooks
+│   ├── eslint-plugin-react-refresh
+│   ├── eslint-scope
+│   ├── eslint-visitor-keys
+│   ├── espree
+│   ├── esquery
+│   ├── esrecurse
+│   ├── estraverse
+│   ├── esutils
+│   ├── fast-deep-equal
+│   ├── fast-json-stable-stringify
+│   ├── fast-levenshtein
+│   ├── fdir
+│   ├── file-entry-cache
+│   ├── find-up
+│   ├── flat-cache
+│   ├── flatted
+│   ├── gensync
+│   ├── glob-parent
+│   ├── globals
+│   ├── graceful-fs
+│   ├── hermes-estree
+│   ├── hermes-parser
+│   ├── ignore
+│   ├── imurmurhash
+│   ├── is-extglob
+│   ├── is-glob
+│   ├── isexe
+│   ├── jiti
+│   ├── js-tokens
+│   ├── jsesc
+│   ├── json-buffer
+│   ├── json-schema-traverse
+│   ├── json-stable-stringify-without-jsonify
+│   ├── json5
+│   ├── keyv
+│   ├── levn
+│   ├── lightningcss
+│   ├── lightningcss-android-arm64
+│   ├── locate-path
+│   ├── lru-cache
+│   ├── lucide-react
+│   ├── magic-string
+│   ├── minimatch
+│   ├── ms
+│   ├── nanoid
+│   ├── natural-compare
+│   ├── node-releases
+│   ├── optionator
+│   ├── p-limit
+│   ├── p-locate
+│   ├── path-exists
+│   ├── path-key
+│   ├── picocolors
+│   ├── picomatch
+│   ├── postcss
+│   ├── prelude-ls
+│   ├── punycode
+│   ├── react
+│   ├── react-dom
+│   ├── react-router
+│   ├── react-router-dom
+│   ├── rolldown
+│   ├── scheduler
+│   ├── semver
+│   ├── set-cookie-parser
+│   ├── shebang-command
+│   ├── shebang-regex
+│   ├── source-map-js
+│   ├── tailwindcss
+│   ├── tapable
+│   ├── tinyglobby
+│   ├── type-check
+│   ├── update-browserslist-db
+│   ├── uri-js
+│   ├── vite
+│   ├── which
+│   ├── word-wrap
+│   ├── yallist
+│   ├── yocto-queue
+│   ├── zod
+│   └── zod-validation-error
+├── public
+└── src
+    ├── components
+    └── pages
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+122 directories
+```
