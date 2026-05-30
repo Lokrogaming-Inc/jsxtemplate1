@@ -46,7 +46,7 @@ Versions:
 
 
 
- last commit)
+## 🖼 Picture Gallery (picture from the last commit)
 ![screenshot](/screenshots/home.png)
 
 
