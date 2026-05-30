@@ -21,10 +21,10 @@ jobs:
         with:
           node-version: 22
 
-      - name: Install
+      - name: Install dependencies
         run: npm install
 
-      - name: Build
+      - name: Build app
         run: npm run build
 
       - name: Install http-server
@@ -35,13 +35,38 @@ jobs:
           http-server dist -p 3000 &
           sleep 5
 
-      - name: Screenshot
-        uses: swinton/screenshot-website@v1
-        with:
-          source: http://localhost:3000
-          destination: screenshots/home.png
-      
-      - name: Commit Screenshot
+      - name: Install Playwright
+        run: npx playwright install chromium
+
+      - name: Create screenshot script
+        run: |
+          cat > screenshot.mjs << 'EOF'
+          import { chromium } from 'playwright';
+
+          const browser = await chromium.launch();
+          const page = await browser.newPage({
+            viewport: {
+              width: 1440,
+              height: 900
+            }
+          });
+
+          await page.goto('http://localhost:3000', {
+            waitUntil: 'networkidle'
+          });
+
+          await page.screenshot({
+            path: 'screenshots/home.png',
+            fullPage: true
+          });
+
+          await browser.close();
+          EOF
+
+      - name: Take screenshot
+        run: node screenshot.mjs
+
+      - name: Commit screenshot
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update screenshot"
