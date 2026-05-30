@@ -39,7 +39,7 @@ Versions:
 ```
 
 | Version      | Key-Features | Date   | Supported
-|-----------|--------------|----------|
+|-----------|--------------|----------|---------|
 | V0.7.0    | Initial Commit       | 28.5.2026   | :checkmark: |
 | V0.7.5  | useShare-Hook      | 29.5.2026 | :checkmark: |
 | V0.8.0 | Updated Hero, Contact-Page and README-File | :checkmark: |
