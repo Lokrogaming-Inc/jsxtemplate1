@@ -1,14 +1,12 @@
 # ELEVEN (Shanghai) Website
 ![Logo](/public/logo.png)
 
-![Stars](https://img.shields.io/github/stars/Lokrogaming/eleven-shanghai)</br>
-![Languages](https://img.shields.io/github/languages/count/Lokrogamimg/eleven-shanghai)</br>
+![Stars](https://img.shields.io/github/stars/Lokrogaming/eleven-shanghai) &nbsp;
+![Languages](https://img.shields.io/github/languages/count/Lokrogamimg/eleven-shanghai) &nbsp;
 ![Top Language](https://img.shields.io/github/languages/top/Lokrogaming/eleven-shanghai) &nbsp;
 ![Last Commit](https://img.shields.io/github/last-commit/Lokrogaming/eleven-shanghai) &nbsp;
 
-## About Lokrogaming:
 
-![Stats](https://github-readme-stats.vercel.app/api?username=Lokrogaming&show_icons=true)</br>
 ##  📋 Versions
 
 ```text
