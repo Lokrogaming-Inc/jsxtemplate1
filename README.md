@@ -38,6 +38,12 @@ Versions:
  
 ```
 
+| Name      | Rolle        | Status   |
+|-----------|--------------|----------|
+| Eleven    | Agency       | Active   |
+| Shanghai  | Project      | Beta     |
+| Vercel    | Deployment   | Online   |
+
 ## Picture Gallery (since last commit)
 ![screenshot](/screenshots/home.png)
 
