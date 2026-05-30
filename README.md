@@ -24,6 +24,17 @@ Versions:
    * Added a share button, so the user is able to share the site
    * Added a universal useShare-Hook for sharing multiple types of text/URls.
  ___________________
+
+ V0.8.0
+ ___________________
+
+   * Added a GitHub workflow for automatic updating of screenshots
+   * Added nerdy stats at the top of the README.md-file
+   * Fixed Contact.jsx page and removed the 'No Image Selected' text on profile cards
+   * Added a visitor-counter on the bottom of the README.md-file
+   
+   * Planning to change the background system for the contact page
+ ___________________ 
  
 ```
 
