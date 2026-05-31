@@ -4,13 +4,14 @@ import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import NotFound from "./pages/NotFound";
-{/* import Contact from "./pages/Contact"; */}
+import Contact from "./pages/Contact";
 import Team from "./pages/Team";
+import Success from "./pages/Success";
 
 export default function App() {
   return (
     <BrowserRouter>
-<div className="min-h-screen bg-gradient-to-br from-amber-400 via-grey-300 to-yellow-300">
+<div className="min-h-screen bg-gradient-to-br from-amber-400 via-yellow-200 to-yellow-300">
 
       
 
@@ -20,6 +21,8 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<NotFound />} />
           <Route path="/team" element={<Team />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/success" element={<Success />} />
 
           <Route path="*" element={<NotFound />} />
         </Routes>
