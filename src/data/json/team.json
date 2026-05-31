@@ -19,5 +19,15 @@
     "country": "DE",
     "icon": "User",
     "status": "nA"
+  },
+  {
+    "id": "pinco",
+    "name": "Pinco Pallino",
+    "role": "Trainee",
+    "description": "May be a nice person",
+    "email": "not-an-email@example.dev",
+    "country": "IT",
+    "icon": "User",
+    "status": "pending"
   }
 ]
