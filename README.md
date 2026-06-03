@@ -1,48 +1,18 @@
-# ELEVEN (Shanghai) Website
+# Website Template with react
 ![Logo](/public/logo.png)
 
-![Stars](https://img.shields.io/github/stars/Lokrogaming/eleven-shanghai) &nbsp;
-![Languages](https://img.shields.io/github/languages/count/Lokrogaming/eleven-shanghai) &nbsp;
-![Top Language](https://img.shields.io/github/languages/top/Lokrogaming/eleven-shanghai) &nbsp;
-![Last Commit](https://img.shields.io/github/last-commit/Lokrogaming/eleven-shanghai) &nbsp;
+![Stars](https://img.shields.io/github/stars/Lokrogaming/jsxtemplate1) &nbsp;
+![Languages](https://img.shields.io/github/languages/count/Lokrogaming/jsxtemplate1) &nbsp;
+![Top Language](https://img.shields.io/github/languages/top/Lokrogaming/jsxtemplate1) &nbsp;
+![Last Commit](https://img.shields.io/github/last-commit/Lokrogaming/jsxtemplate1) &nbsp;
 
 
-##  📋 Versions
 
-```text
-Versions:
-   V0.7.0 
- ___________________
-
-   * Added Bash Scripts for faster and a more efficient way to commit to github
-   * Added a useShare-Hook for easier sharing of text, URls and more!
- ___________________
-  
- V0.7.5
- ___________________
-   
-   * Added a share button, so the user is able to share the site
-   * Added a universal useShare-Hook for sharing multiple types of text/URls.
- ___________________
-
- V0.8.0
- ___________________
-
-   * Added a GitHub workflow for automatic updating of screenshots
-   * Added nerdy stats at the top of the README.md-file
-   * Fixed Contact.jsx page and removed the 'No Image Selected' text on profile cards
-   * Added a visitor-counter on the bottom of the README.md-file
-   
-   * Planning to change the background system for the contact page
- ___________________ 
- 
-```
 
 | Version      | Key-Features | Date   | Supported
 |-----------|--------------|----------|---------|
-| V0.7.0    | Initial Commit       | 28.5.2026   | ✅️ |
-| V0.7.5  | useShare-Hook      | 29.5.2026 | ✅️ |
-| V0.8.0 | Updated Hero, Contact-Page and README-File | 30.5.2026 | ✅️ |
+| V0.7.0    | Initial Commit       | 3.6.2026   | ✅️ |
+
 
 
 
@@ -106,4 +76,4 @@ shareCurrentUrl({
 
 ## Visitors
 
-![Visitors](https://count.getloli.com/@eleven-shanghai?name=eleven-shanghai&theme=e621&padding=7&offset=3&align=center&scale=1&pixelated=0&darkmode=1)
+![Visitors](https://count.getloli.com/@lokrogaming-jsxtemplate1?name=eleven-shanghai&theme=e621&padding=7&offset=3&align=center&scale=1&pixelated=0&darkmode=1)
