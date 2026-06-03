@@ -11,7 +11,7 @@ import Success from "./pages/Success";
 export default function App() {
   return (
     <BrowserRouter>
-<div className="min-h-screen bg-gradient-to-b from-yellow-500 to-amber-500">
+<div className="min-h-screen bg-gradient-to-b from-pink-500 via-purple-500 to-blue-800">
 
       
 
