@@ -15,19 +15,19 @@ export default function Ticker() {
     },
     {
       icon: Flame,
-      text: "Stunning Designs",
+      text: "React 19",
     },
     {
       icon: Zap,
-      text: "Professional",
+      text: "Tailwind",
     },
     {
       icon: TrendingUp,
-      text: "Many Projects",
+      text: "JSX",
     },
     {
       icon: Trophy,
-      text: "German Design Award 2025",
+      text: "JSX Template",
     },
   ];
 
@@ -45,7 +45,7 @@ export default function Ticker() {
             >
               <Icon
                 size={32}
-                className="text-[yellow]"
+                className="text-blue"
               />
 
               <span className="mt-2 text-slate-200 text-sm">
