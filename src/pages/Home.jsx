@@ -60,7 +60,7 @@ export default function Home() {
 <li><p className="text—xl font-bold text-black">Add your service here</p></li>
          </ul>
        </div>
-
+</div>
       </section>
     </>
   );
