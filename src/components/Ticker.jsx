@@ -45,7 +45,7 @@ export default function Ticker() {
             >
               <Icon
                 size={32}
-                className="text-blue"
+                className="text-blue-700"
               />
 
               <span className="mt-2 text-slate-200 text-sm">

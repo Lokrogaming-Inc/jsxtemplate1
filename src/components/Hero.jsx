@@ -30,7 +30,7 @@ export default function Hero() {
  <p className="text-xl text-white font-bold">JSX Template</p>
 </span>
 
-        <h1 className="mt-8 text-6xl text-black font-black">
+        <h1 className="mt-8 text-6xl text-white font-bold">
           Example Site
         </h1>
 
@@ -39,7 +39,7 @@ export default function Hero() {
         </p>
 
         <div className="mt-10 flex justify-center gap-4">
-          <button className="bg-[#111] border-black border transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-black hover:text-white text-slate-400 px-6 py-3 rounded-xl">
+          <button className="bg-[#111] border-blue-400 border transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-black hover:text-white text-slate-400 px-6 py-3 rounded-xl">
             Get in Touch
           </button>
           <button onClick={() =>
@@ -48,7 +48,7 @@ export default function Hero() {
           text: "Some Text",
         })
       } 
-  className="text-black text-lg transition-transform duration-300 ease-in-out hover:scale-110 hover:border-b hover:border-black">
+  className="text-blue-900 text-lg transition-transform duration-300 ease-in-out hover:scale-110 hover:border-b hover:border-blue-400">
 <Share2 />
 </button> 
           
@@ -56,9 +56,10 @@ export default function Hero() {
 <button
   className="
     relative
+    text-blue-950
     overflow-hidden
     border
-    border-black
+    border-blue-700
     px-6
     py-3
     rounded-xl
