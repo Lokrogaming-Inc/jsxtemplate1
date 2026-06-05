@@ -128,9 +128,11 @@
   }
 
   .bg-gradient-hero {
-    background: linear-gradient(180deg, 
-      hsl(var(--background)) 0%, 
+    background: linear-gradient(180deg,
+      hsl(235 30% 12%) 0%,
+      hsl(var(--background)) 25%, 
       hsl(235 30% 12%) 50%,
-      hsl(var(--background)) 100%);
+      hsl(var(--background)) 75%%,
+      hsl(235 30% 12%) 100%);
   }
 
