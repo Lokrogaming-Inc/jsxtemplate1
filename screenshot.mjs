@@ -23,18 +23,20 @@ if (!fs.existsSync('screenshots')) {
 }
 
 for (const route of routes) {
-  await page.goto(`http://localhost:3000${route.path}`, {
-    waitUntil: 'networkidle'
-  });
+await page.goto(`http://localhost:3000${route.path}`, {
+waitUntil: 'domcontentloaded'
+});
 
-  await page.waitForTimeout(1000);
+// warten bis JS fertig + Layout stabil
+ await page.waitForLoadState('networkidle').catch(() => {});
+await page.waitForTimeout(3000);
 
-  await page.screenshot({
-    path: `screenshots/${route.name}.png`,
-    fullPage: true
-  });
+await page.screenshot({
+path: `screenshots/${route.name}.png`,
+fullPage: true
+});
 
-  console.log(`Screenshot saved: ${route.name}`);
+console.log(`Screenshot saved: ${route.name}`);
 }
 
 await browser.close();
