@@ -41,7 +41,7 @@ jobs:
       - name: Install Playwright
         run: npx playwright install chromium
 
-            - name: Create screenshot script
+      - name: Create screenshot script
         run: |
           cat > screenshot.mjs << 'EOF'
           import { chromium } from 'playwright';
