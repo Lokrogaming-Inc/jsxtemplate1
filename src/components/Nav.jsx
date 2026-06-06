@@ -8,7 +8,7 @@ export default function Navbar() {
   return (
     <>
       {/* Desktop Navbar */}
-      <nav className="hidden sm:flex items-center justify-between px-6 py-4 bg-black border-b border-blue-850 shadow shadow-lg">
+      <nav className="hidden sm:flex items-center justify-between px-6 py-4 bg-black border-b border-blue-850 shadow-xl/30 shadow-blue-750">
 <Link to="/"><p className="text-xl font-bold">Template 1</p></Link>
 
         <div className="flex gap-6">
