@@ -10,7 +10,7 @@
     --popover: 228 12% 11%;
     --popover-foreground: 210 40% 98%;
 
-    --primary: 235 86% 65%;
+    --primary: 221 77.3% 46.7%;
     --primary-foreground: 0 0% 100%;
 
     --secondary: 228 12% 18%;
@@ -121,7 +121,7 @@
   }
 } 
   .text-gradient-primary {
-    background: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(280 80% 65%) 100%);
+    background: linear-gradient(135deg, hsl(var(--primary)) 40%, hsl(221, 85%, 30%) 75%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;

@@ -15,7 +15,7 @@
     "name": "John Doe",
     "role": "Developer",
     "description": "I don't know what to say, so I'm writing this",
-    "email": "lokrogamer.29@gmail.com",
+    "email": "lol@lokro.dev",
     "country": "DE",
     "icon": "User",
     "status": "nA"
@@ -29,5 +29,15 @@
     "country": "IT",
     "icon": "User",
     "status": "pending"
+  },
+  {
+    "id": "alien",
+    "name": "Alien From Mars",
+    "role": "Master of Destruction (that's why he's not hired)",
+    "description": "Definitely not a human being",
+    "email": "not-human@example.dev",
+    "country": "US",
+    "icon": "UserCog",
+    "status": "verified"
   }
 ]

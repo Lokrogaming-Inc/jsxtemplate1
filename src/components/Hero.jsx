@@ -24,13 +24,13 @@ export default function Hero() {
     rounded-full
     px-4
     py-2
-    w-30
+    w-40
   "
 >
  <p className="text-xl text-white font-bold">JSX Template</p>
 </span>
 
-        <h1 className="mt-8 text-6xl text-white font-bold">
+        <h1 className="mt-8 h-40 sm:h-20 text-6xl font-bold text-gradient-primary">
           Example Site
         </h1>
 
@@ -48,7 +48,7 @@ export default function Hero() {
           text: "Some Text",
         })
       } 
-  className="text-blue-900 text-lg transition-transform duration-300 ease-in-out hover:scale-110 hover:border-b hover:border-blue-400">
+  className="text-blue-900 text-lg transition-transform duration-300 ease-in-out hover:scale-110 hover:border-b hover:border-blue-400 hover:text-blue-600">
 <Share2 />
 </button> 
           
@@ -56,7 +56,7 @@ export default function Hero() {
 <button
   className="
     relative
-    text-blue-950
+    text-blue-700
     overflow-hidden
     border
     border-blue-700

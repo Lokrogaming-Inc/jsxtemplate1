@@ -49,8 +49,8 @@ export default function Team() {
         <p className="text-4xl font-bold">Our Team</p>
         <p className="text-lg">{memberCount} registered members</p>
       </div>
-
-      <div className="grid grid-cols-2 sm:grid-cols-1 gap-10 my-10">
+      <div className="flex justify-center">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 my-10">
         {teamMembers.map((person) => {
           const Icon = iconMap[person.icon] || User;
 
@@ -66,7 +66,7 @@ export default function Team() {
           return (
             <div
               key={person.id}
-              className="relative gap-10 w-200 mx-5 flex flex-col rounded-xl p-6 border-y border-purple-650 bg-[#001111] transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-105"
+              className="relative break-normal gap-10 max-w-md flex flex-col rounded-xl p-6 border-y border-purple-650 bg-[#001111] transition-fransform duration-300 ease-in-out hover:-translate-y-1 hover:scale-105"
             >  
                  {/* Country Badge */}
              {person.country && (
@@ -154,6 +154,7 @@ export default function Team() {
             </div>
           );
         })}
+      </div>
       </div>
     </>
   );

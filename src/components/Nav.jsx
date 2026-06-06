@@ -8,7 +8,9 @@ export default function Navbar() {
   return (
     <>
       {/* Desktop Navbar */}
-      <nav className="hidden sm:flex items-center justify-between px-6 py-4 bg-black border-b border-blue-850 shadow-xl/30 shadow-blue-750">
+      <div className="relative">
+  <div className="absolute inset-x-0 -bottom-3 h-6 bg-gradient-to-r from-blue-500 via-cyan-400 to-purple-500 blur-xl opacity-60"></div>
+      <nav className="hidden sm:flex items-center justify-between px-6 py-4 bg-black border-b border-blue-850">
 <Link to="/"><p className="text-xl font-bold">Template 1</p></Link>
 
         <div className="flex gap-6">
@@ -53,21 +55,26 @@ export default function Navbar() {
     </Link>
         </div>
       </nav>
+      </div>
 
       {/* Mobile Navbar */}
-      <nav className="sm:hidden flex items-center justify-between px-4 py-4 bg-black border-b border-white">
+      <div className="relative sm:hidden">
+  {/* Gradient Shadow */}
+  <div className="absolute inset-x-0 -bottom-3 h-6 bg-gradient-to-r from-blue-500 via-cyan-400 to-purple-500 blur-xl opacity-60"></div>
 
-<Link to="/">        
-<p>Template 1</p>
-</Link>
+  <nav className="relative flex items-center justify-between px-4 py-4 bg-black border-b border-white">
+    <Link to="/">
+      <p>Template 1</p>
+    </Link>
 
-        <button
-          onClick={() => setOpen(true)}
-          className="text-white"
-        >
-          <Menu size={28} />
-        </button>
-      </nav>
+    <button
+      onClick={() => setOpen(true)}
+      className="text-white"
+    >
+      <Menu size={28} />
+    </button>
+  </nav>
+</div>
 
       {/* Backdrop */}
       {open && (

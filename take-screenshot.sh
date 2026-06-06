@@ -16,12 +16,12 @@ const page = await browser.newPage({
   }
 });
 
-await page.goto('http://localhost:5173', {
+await page.goto('http://localhost:5173/contact', {
   waitUntil: 'networkidle'
 });
 
 await page.screenshot({
-  path: 'screenshots/home.png',
+  path: 'screenshots/contact.png',
   fullPage: true
 });
 

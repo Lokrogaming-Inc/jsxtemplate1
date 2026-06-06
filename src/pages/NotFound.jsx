@@ -10,15 +10,15 @@ export default function NotFound() {
         className="text-red-500 mb-6"
       />
 
-      <h1 className="text-7xl font-bold text-black">
+      <h1 className="text-7xl font-bold text-white">
         404
       </h1>
 
-     <h3 className="text-3xl font-bold text-black">
+     <h3 className="text-3xl font-bold text-white">
       We're sorry, but...
      </h3>
 
-      <h2 className="mt-4 text-2xl font-semibold text-black">
+      <h2 className="mt-4 text-2xl font-semibold text-white">
      Site not found
       </h2>
 

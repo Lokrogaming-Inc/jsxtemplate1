@@ -1,0 +1,17 @@
+[
+  {
+    "id": "1",
+    "name": "Max Mustermann",
+    "description": "Welcome to my Life!"
+  },
+  {
+    "id": "2",
+    "name": "John Doe",
+    "description": "I don't know what to say, so I'm writing this"
+  },
+  {
+    "id": "3",
+    "name": "Pinco Pallino",
+    "description": "May be a nice person"
+  }
+]
